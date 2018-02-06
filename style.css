@@ -2,19 +2,26 @@ header {
 	opacity: 0.8;
 	width: 100%; 
 	height: 70px; 
-	background-color: #C40036; 
-	position: fixed;
+	background-color: black; 
+	position: fixed-top;
 }
 
 body{
+	overflow-x: hidden;
+	overflow-y: hidden;
 	margin: 0; 
 	padding: 0;
-	background-color: #BDBDBD;
+	background-color: #ff6961;
 }
 
 #home {
-	margin-left: 650px;
+	margin-left: 800px;
 }
+
+#home-his {
+	margin-left: 800px;
+}
+
 
 a{
 	position: relative;
@@ -41,18 +48,20 @@ a:hover{
 }
 
 #content{
-	background-color: white;
-	height: 2500px;
-	width: 800px;
-	position: center;
+	display: block;
+	background-color: black;
+	width: 1600px;
+	height: 500px;
 }
 
 #main{
 	margin-top: 100px;
-	margin-left: 330px;
+	margin-left: 370px;
 	width: 50%;
 	height: 50%;
-	border-radius: 100px;
+	/*border-radius: 100px;*/
+	background-color: black;
+	background-width: 100%
 }
 
 footer{
@@ -68,10 +77,20 @@ footer{
 	padding-left: 100px;
 	display: inline-block;
 }
+	
+#conteudo{
+	display: inline-block;
+	margin-top: 20px;
+	padding-left: 100px;
 
-button{
-	display: block;
-	margin-left: 400px;
-	width: 400px;
-	border-radius: 20%;
+}
+
+#celimg{
+	margin-top: 20px;
+	margin-left: 20px;
+	max-width: 500px;
+}
+
+span{
+	margin-left: 20px;
 }
